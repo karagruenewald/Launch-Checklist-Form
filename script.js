@@ -55,7 +55,7 @@ function validation() {
             let faultyItemsDiv = document.getElementById("faultyItems");
             faultyItemsDiv.style.visibility = "visible";
             let fuelStatus = document.getElementById("fuelStatus");
-            fuelStatus.innerHTML=`Fuel level high enough launch.`;
+            fuelStatus.innerHTML=`Fuel level high enough for launch.`;
             let statusTitle = document.getElementById("launchStatus");
             launchStatusFuel = true;
             
